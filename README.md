@@ -73,7 +73,8 @@ returning to the QR code it self we can do this equation on **admin** username B
 
 so it will be like this  
 **otpauth://totp/Web%20Challenge%20-%20Authentification%20%28admin%29?secret=MMZTEOBUMQYGMOJUGYYDMZDFGFTGIMTBMYYTOMTBMJQTCNLCMYZQ=&issuer=Hackday**
-after that we can use any online tool to generate a QR code from text . 
+after that we can use any online tool to generate a QR code from text .
+once we generate the QR code we can scan it using google authenticator
 So now we know how to get the admin OTP 
 
 ## [3] JWT part 
