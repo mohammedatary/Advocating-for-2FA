@@ -89,11 +89,11 @@ if we copy it and try to modify it using jwt.io
 
 we cannot just edit it and replace it by the new one , we need to find the secret of the JWT 
 but how ? to understand how jwt works and what is the vulnerabilities associated with you can check this link https://portswigger.net/web-security/jwt
-![Screenshot from 2023-03-19 22-16-59](https://user-images.githubusercontent.com/37233306/226445321-6dc92bca-b3cb-43a4-8317-52dc70a4e077.png)
+
 
 I will crack it using hashcat 
 
-**hashcat jwt.txt -m 16500 ** 
+```hashcat jwt.txt -m 16500 ``` 
 
 ![image](https://user-images.githubusercontent.com/37233306/226444430-b3f52f7c-86b3-470f-b74f-fc4afdaca4f2.png)
 
