@@ -65,8 +65,7 @@ I have captured the most important part of it
                             display: "none"
                         }
                     }, null, 8, Se)])) : (0, r.kq)("", !0)]), Ue])
-                } 
-                ``
+                }```
 so now we know that we must use **admin** username , but what is the e.token ? 
 Do't worry we will deal with it later 
 returning to the QR code it self we can do this equation on **admin** username BASE32(MD5(MD5(admin))) then put as secret value
