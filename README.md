@@ -38,7 +38,7 @@ if we put it's value on https://gchq.github.io/CyberChef we will notice that the
 
 but what is the output ??
 the first impression was MD5 , so I have tried to crack it , but no results , so what ? stop ? of course no 
-then I have tried to do MD5 on the username 
+then I have tried to do hash the username as MD5
 
 ![image](https://user-images.githubusercontent.com/37233306/226423520-7f7318a3-54ea-4b84-a881-7d3ecf7001dc.png)
 
@@ -66,7 +66,7 @@ I have captured the most important part of it
                         }
                     }, null, 8, Se)])) : (0, r.kq)("", !0)]), Ue])
                 } 
-                ```
+                ``
 so now we know that we must use **admin** username , but what is the e.token ? 
 Do't worry we will deal with it later 
 returning to the QR code it self we can do this equation on **admin** username BASE32(MD5(MD5(admin))) then put as secret value
