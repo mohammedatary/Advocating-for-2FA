@@ -4,12 +4,12 @@
 ----------------------------------------------------------
 
 ## [1] Analyze the target : 
-we will start from this url https://oup0leb6eit.hackday.fr, it will show coming soon page
+we will start from this url https://oup0leb6eit.hackday.fr, it will show a coming soon page , 
 if we go to robots.txt file , it will show the path of the sitemap as shown in the photo :
 
 ![Screenshot from 2023-03-19 22-09-42](https://user-images.githubusercontent.com/37233306/226417650-ac667855-c424-4cba-a952-988147636696.png)
 so we will visit the sitemap.xml , note that the path was http://localhost:8080/sitemap.xml 
-don't worry we will not perform any kind of ssrf or lfi here , sitemap.txt will open directly
+. but don't worry we will not perform any kind of ssrf or lfi here , sitemap.txt will open directly
 ![Screenshot from 2023-03-19 22-09-58](https://user-images.githubusercontent.com/37233306/226417983-51d7b8f9-e5ec-4163-ba49-d7246947764e.png)
 as shown in the photo , the sitemap.txt file contain two pages rather that the home , login and register 
 we will go to the registration page to register a new user
@@ -17,7 +17,7 @@ we will go to the registration page to register a new user
 as shown in the photo and like any registration panel , we have to provide a username  , password and confirm that password
 I will use github1 for the username and the password as shown below 
 ![Screenshot from 2023-03-19 22-10-30](https://user-images.githubusercontent.com/37233306/226419963-040ff2a6-35a0-43af-be1e-a91b014786b6.png)
-everything is ok untill now 
+until now everything is normal  
 
 ## [2] 2FA and it's bypass : 
 so when we confirm our login it will require a 2FA code , but how we can get the code ? 
